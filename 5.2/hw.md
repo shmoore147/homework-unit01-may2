@@ -71,19 +71,19 @@ task = {
 
 In this app, users can upload photos to their accounts and share them with others. These photos can be grouped into albums.
 photo = {
-  name:
-  date:
-  URL:
+  name: "Me at the beach"
+  date: "March 10, 2016"
+  URL: "www.mypic.com"
 }
 
 album = {
-  name:
-  photos:
+  name: "Aruba"
+  photos: "Photo1", ...
 }
 user = {
-  username:
-  uploadedPhotos:
-  albumsCreated:
+  username: shm147
+  uploadedPhotos: 7  
+  albumsCreated: 2
 }
 
 ### 3. Home Automation Manager
@@ -94,14 +94,14 @@ information to turn on and off different lights and adjust the thermostat up
 and down.
 
 light = {
-  brightness:
-  location:
-  name:
+  brightness: 76
+  location: "Living room"
+  name: "Lamp next to the sofa"
 }
 
 home = {
-  temperature:
-  lights:
+  temperature: 71
+  lights: 17
 }
 ### 4. Sneaker Store
 
@@ -110,19 +110,19 @@ case), add those products to a cart, and save that cart as a past order once the
 purchase is complete.
 
 product = {
-  name:
-  description:
-  price:
+  name: "Converse"  
+  description: "lace-up shoe"
+  price: 100
 }
 
 orderItem = {
-  product:
-  quantity:
+  product: "Converse"
+  quantity: 1
 }
 order = {
-  orderItems:
-  status:
-  date:
+  orderItems: "Converse"
+  status: "Sold"
+  date: 5/2/17
 }
 ## Representing Abstractions in Code
 
